@@ -1,0 +1,49 @@
+﻿html {
+    direction: rtl !important;
+}
+
+.dropdown-menu {
+    right: 0 !important;
+    float: right !important;
+    text-align: right !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: right !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: right !important;
+    }
+
+        .navbar-nav > li {
+            float: right !important;
+        }
+}
+
+@media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11 {
+        float: right !important;
+    }
+}
+
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+    float: right !important;
+    margin-right: -20px !important;
+}
